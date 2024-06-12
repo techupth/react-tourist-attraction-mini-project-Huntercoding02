@@ -49,7 +49,7 @@ function Home() {
             </div>
             <div className="block-detail">
             <div className="Vacation-detail">
-              <h2> {item.title} </h2>
+            <a href={item.url}><h2> {item.title} </h2></a>
               <p > {item.description.slice(0, 100) + "..."} </p>
               <div className="action">
                 <a href={item.url}>อ่านต่อ</a>
