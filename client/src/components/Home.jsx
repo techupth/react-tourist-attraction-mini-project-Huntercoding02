@@ -52,7 +52,7 @@ function Home() {
             <a href={item.url}><h2> {item.title} </h2></a>
               <p > {item.description.slice(0, 100) + "..."} </p>
               <div className="action">
-                <a href={item.url}>อ่านต่อ</a>
+                <a href={item.url} target="_blank">อ่านต่อ</a>
                 <p>
                   หมวด {item.tags[0]} <a link="#">{item.tags[1]}</a>{" "}
                   <a link="#">{item.tags[2]}</a> <a link="#">{item.tags[3]}</a>{" "}
